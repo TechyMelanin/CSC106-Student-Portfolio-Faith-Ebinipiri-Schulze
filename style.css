@@ -13,6 +13,19 @@
     --logo: #FBF1D9;
 }
 
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: "Inter", sans-serif;
     letter-spacing: -0.9px;
@@ -1022,6 +1035,17 @@ h2 {
      .hero-image img {
         max-height: 200px;
         object-position: center 5%;
+    }
+
+     .site-header {
+        width: 100%;
+        position: static;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
     }
 
 }
