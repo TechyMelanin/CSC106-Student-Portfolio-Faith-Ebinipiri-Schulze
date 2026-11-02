@@ -1,5 +1,5 @@
 const currentPage = window.location.pathname.split("/").pop() || "home.html";
-const activePage = currentPage === "index.html" ? "home.html" : currentPage;
+const activePage = currentPage === "index.html" ? "index.html" : currentPage;
 
 document.querySelectorAll(".nav-links a").forEach((link) => {
     const isActive = new URL(link.href).pathname.split("/").pop() === activePage;
