@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My student portfolio and academic projects">
+    <title>Faith Schulze | UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">Faith Ebi Schulze.</a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="academicplanner.html">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+      <main class="contact-main">
+
+        <section class="contact-heading">
+            <h1>Let’s Talk</h1>
+            <p>Have an idea? Let’s build it</p>
+        </section>
+
+        <section class="contact-content">
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form-container" id="contactFormContainer">
+
+                <form id="contactForm" novalidate>
+
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="John Doe"
+                            required
+                        >
+                        <small class="error-message" id="nameError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="xyz@company.com"
+                            required
+                        >
+                        <small class="error-message" id="emailError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="08012345678"
+                            inputmode="numeric"
+                            required
+                        >
+                        <small class="error-message" id="phoneError"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Type in your request"
+                            required
+                        ></textarea>
+                        <small class="error-message" id="messageError"></small>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Submit
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- SUCCESS MESSAGE -->
+            <div class="contact-form-container success-message"
+                 id="successMessage" hidden>
+
+                <div>
+                    <h2>Your response has been recorded</h2>
+                    <p>I'll be with you soon!</p>
+                </div>
+
+            </div>
+
+            <!-- CONTACT INFORMATION -->
+            <aside class="contact-info">
+
+                <div class="contact-detail">
+                    <h2>Email</h2>
+                    <a href="mailto:ebischulze@gmail.com">
+                        ebischulze@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-detail">
+                    <h2>Phone</h2>
+                    <a href="tel:+2347015042837">
+                        +234 7015042837
+                    </a>
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://x.com/EbiSchulze" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/dronita1/" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/faith-schulze-uiux" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a
+
+                    </div>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
